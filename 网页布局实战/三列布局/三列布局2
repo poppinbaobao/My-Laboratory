@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>两列布局</title>
+	<style>
+		body{margin: 0;padding: 0}/*清除默认样式*/
+		.left{width:200px;height:500px;background: blue;
+			position: absolute;left:0;top:0;}
+        .middle{height:500px;background: #ccc;margin-left:210px;margin-right:210px;}
+        .right{width:200px;height:500px;background: gray;
+        	position: absolute;right:0;top:0;}
+	</style>
+</head>
+<body>
+	
+		<div class="left"></div>
+		<div class="middle">xixix</div>
+		<div class="right"></div>
+	
+</body>
+</html>

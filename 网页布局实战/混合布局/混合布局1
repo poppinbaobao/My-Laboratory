@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>两列布局</title>
+	<style type="text/css">
+	body{ margin:0; padding:0; font-size:30px; color:#fff}
+	.top{height:100px;background: blue;}
+	.main{height:400px;background: black;}
+	.left{width:200px;height:400px;background: pink;}
+	.right{height:400px;background:purple;float:right;}
+	.foot{height:100px;background: yellow;}
+	</style>
+
+</head>
+<body>
+	<div class="top">top</div>
+	<div class="main">
+	    <div class="right">right</div>
+	    <div class="left">left</div>
+	</div>
+	<div class="foot">foot</div>
+</body>
+</html>

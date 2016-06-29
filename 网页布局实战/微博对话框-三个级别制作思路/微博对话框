@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body,p,h1,h2,h3,h4,h5,h6,form,ul,ol,hr{margin:0;padding:0;font:14px/1.5,normal,"Arial","sans-serif","微软雅黑","宋体","Tahoma";color:#666}
+        ul,ol{list-style:none;ss}
+
+		#demo1{width: 600px;position: relative;overflow: hidden;}
+		#demo1 .left{width: 100px;float:left;}
+		#demo1 .left img{margin-left: 20px;}
+		#demo1 .right{width:458px;padding:20px;float:right;background: #9cf;border: 1px solid #ccc;}
+		#demo1 .right p{font-size: 12px;line-height: 25px;}
+		#demo1 span{position: absolute;top:10px;right: 20px;font-size: 12px}
+        
+        #demo2{width: 600px;position: relative;overflow: hidden;}
+		#demo2  img{float: left;margin-left:20px;}
+		#demo2 .right{width:458px;padding:20px;float:right;background: #9cf;border: 1px solid #ccc;}
+		#demo2 .right p{font-size: 12px;line-height: 25px;}
+		#demo2 span{position: absolute;top:10px;right: 20px;font-size: 12px}
+
+        #demo3{width:458px;padding:20px;background: #9cf;border: 1px solid #ccc;position: relative;margin-left: 100px;}
+		#demo3 p{font-size: 12px;line-height: 25px;}
+		#demo3 span{position: absolute;top:10px;right: 20px;font-size: 12px}
+		#demo3 img{position: absolute;left:-80px;top:0px;}
+
+
+
+	</style>
+</head>
+<body>
+    <!-- 初学者制作思路 -->
+	<div id="demo1">
+        <div class="left">
+			<img src="images/head01.jpg" alt="夏明儒"/>
+		</div>
+		<div class="right">
+			<h6>爱吃大圆子</h6>
+			<p>素胚勾勒出青花笔锋浓转淡瓶身描绘的牡丹一如你初妆冉冉檀香透过窗心事我了然宣纸上走笔至此搁一半釉色渲染仕女图韵味被私藏而你嫣然的一笑如含苞待放你的美一缕飘散去到我去不了的地方天青色等烟雨而我在等你炊烟袅袅升起隔江千万里在瓶底书汉隶仿前朝的飘逸就当为遇见你伏笔青色等烟雨而我在等你月色被打捞起晕开了结局</p>
+			<span>10分钟之前</span>
+
+		</div>
+	</div>
+	<br/>
+    <!-- 中级人员的制作思路 -->
+	<div id="demo2">
+		<img src="images/head01.jpg" alt="夏明儒"/>
+		<div class="right">
+			<h6>爱吃大圆子</h6>
+			<p>素胚勾勒出青花笔锋浓转淡瓶身描绘的牡丹一如你初妆冉冉檀香透过窗心事我了然宣纸上走笔至此搁一半釉色渲染仕女图韵味被私藏而你嫣然的一笑如含苞待放你的美一缕飘散去到我去不了的地方天青色等烟雨而我在等你炊烟袅袅升起隔江千万里在瓶底书汉隶仿前朝的飘逸就当为遇见你伏笔青色等烟雨而我在等你月色被打捞起晕开了结局</p>
+			<span>10分钟之前</span>
+
+		</div>
+	</div>
+	<br/>
+	<!-- 高级设计者的制作思路 -->
+	<div id="demo3">
+		<img src="images/head01.jpg" alt="夏明儒"/>
+		<h6>爱吃大圆子</h6>
+		<p>素胚勾勒出青花笔锋浓转淡瓶身描绘的牡丹一如你初妆冉冉檀香透过窗心事我了然宣纸上走笔至此搁一半釉色渲染仕女图韵味被私藏而你嫣然的一笑如含苞待放你的美一缕飘散去到我去不了的地方天青色等烟雨而我在等你炊烟袅袅升起隔江千万里在瓶底书汉隶仿前朝的飘逸就当为遇见你伏笔青色等烟雨而我在等你月色被打捞起晕开了结局</p>
+		<span>10分钟之前</span>		
+	</div>
+</body>
+</html>

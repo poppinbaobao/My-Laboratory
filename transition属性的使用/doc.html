@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title><!-- W3C标准中对CSS3的transition这是样描述的:“CSS的transition允许CSS的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。” -->
+<style type="text/css"> 
+.trans1{
+-webkit-transition:5s ease; /*设置动画效果的时间以及动画的速度形式。*/
+-moz-transition:5s ease;
+-webkit-transition-property:all;/*设置过渡效果的css属性的名称；*/
+-moz-transition-property:all;
+position:absolute;
+left:10px;
+top:50px;
+height:100px;
+width:150px;
+background:#EF4900;
+color:white;
+}
+.trans2{
+-webkit-transition:2s ;
+-moz-transition:2s ;
+-webkit-transition-property:width;
+-moz-transition-property:width;
+position:absolute;
+left:350px;
+top:50px;
+height:100px;
+width:150px;
+background:#EF4900;
+color:white;
+}
+.trans3{
+-webkit-transition:0.5s ease;
+-moz-transition:0.5s ease;
+-webkit-transition-property:height;
+-moz-transition-property:height;
+position:absolute;
+left:780px;
+top:50px;
+height:100px;
+width:150px;
+background:#EF4900;
+color:white;
+}
+.trans1:hover{
+width:300px;
+height:300px;
+background: blue;
+}
+.trans2:hover{
+width:400px;
+}
+.trans3:hover{
+height:500px;
+}
+</style>
+</head>
+<body>
+<div class="trans1">变换所有的属性</div>
+<div class="trans2">只变换宽度属性</div>
+<div class="trans3">只变换高度属性</div>
+</body>
+</html>
